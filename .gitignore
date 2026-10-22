@@ -1,0 +1,28 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# IDE
+.vscode/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# OS
+.DS_Store
+
+# Too large for GitHub (137MB, over the 100MB per-file limit).
+# Regenerate with TextMeshPro > Font Asset Creator, or get it from the project owner.
+/Assets/Fonts/MPLUS1p-Medium SDF.asset
