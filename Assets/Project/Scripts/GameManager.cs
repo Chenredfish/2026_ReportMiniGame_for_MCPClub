@@ -85,6 +85,12 @@ public class GameManager : MonoBehaviour
     //例：{ "Sleep", new[] { RoomChanger.Room.Home } }
     Dictionary<string, RoomChanger.Room[]> roomRules = new Dictionary<string, RoomChanger.Room[]>
     {
+        //軽食：図書館以外
+        { "Meal", new[] { RoomChanger.Room.Home, RoomChanger.Room.Outside } },
+        //ゲーム：図書館以外
+        { "Game", new[] { RoomChanger.Room.Home, RoomChanger.Room.Outside } },
+        //仮眠：外出中以外
+        { "Nap", new[] { RoomChanger.Room.Library, RoomChanger.Room.Home } },
     };
 
     //部屋の状態を更新し、「今いる場所へ行く」選択肢を候補から外すための旗も同期する
